@@ -1,0 +1,144 @@
+/* MOBIE & TABLET  */
+
+@media (max-width: 1023px) {
+    .header{
+        width: 750px;
+    }
+    .header__search{
+        width: 750px;
+    }
+    .header__contacts {
+        display: none;
+    }
+    .header__search-bar {
+        width: 505px;
+    }
+    .header__search-bar-place{
+        width: 207px;
+    }
+    .header__search-bar-place-input{
+        padding-right: 0;
+    }
+    .header__search-bar-place-box{
+        width: 506px;
+    }
+    .header__search-bar-date-box{
+        left: -334px;
+    }
+    .header__search-bar-customer-box{
+        left: 336px;
+    }
+    .menu-tablet-mobile{
+        display: flex;
+    }
+    .footer__transaction-list {
+        padding-left: 0;
+    }
+    .footer__transaction-title {
+        display: flex;
+        justify-content: center;
+    }
+    .footer__certification-list {
+        padding-top: 10px;
+    }
+}
+
+/* TABLET  */
+
+
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+
+/* MOBIE  */
+
+
+@media (max-width: 739px) {
+    .header__search-logo {
+        display: none;
+    }
+    .header__search {
+        padding-left: 0;
+    }
+    .header__search-bar-date{
+        display:none;
+    }
+    .header__search-bar-customer {
+        display: none;
+    }
+    .header__search-bar-search-icon{
+        display: none;
+    }
+    .header__search-bar {
+        width: 207px;
+    }
+    .header__search-bar-place::before {
+        display: none;
+    }
+    .menu-tablet-mobile {
+        display: flex;
+        position: absolute;
+        left: 278px;
+        top: 27px;
+    }
+    .menu-tablet-mobile__menu-box {
+        top: -24px;
+        right: -42px;
+    }
+    .menu-tablet-mobile__menu-overlay {
+        width: 822px;
+    }
+    .header__search-bar-place-box {
+        width: 252px;
+    }
+    .container__discovery-icon {
+        width: 240px;
+        padding-left: 10px;
+    }
+    .container-introduce{
+        padding-left: 10px;
+    }
+    .container-intro-text {
+        padding-left: 10px;
+    }
+    .container__event-product-text{
+        padding-left: 10px;
+    }
+    .container__event-product-text-item {
+        padding-left: 10px;
+    }
+    .container__discovery-title{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .container__discovery-text {
+        padding-left: 10px;
+    }
+    .container__discovery-application-qr-link-img{
+        
+        width: 100px;
+    }
+    .container__discovery-application-qr {
+        margin-left: 10px;
+    }
+    .container__discovery-application-applink-link-img {
+        width: 100px;
+    }
+    .footer__content-title{
+        margin-left: 10px;
+    }
+    .footer__content-item {
+        margin-left: 10px;
+    }
+    .footer_message {
+        margin-left: 10px;
+    }
+    .footer_call {
+        margin-left: 10px;
+    }
+    .svg-icon {
+        margin-left: 10px;
+        width: 140px !important;
+    }
+}   
